@@ -1,5 +1,21 @@
 # Dockerized Reproducible Pipeline
 
+## Prerequisites
+
+Install Docker. No other dependencies needed.
+
+```bash
+# macOS (Homebrew)
+brew install --cask docker
+
+# Linux (Ubuntu/Debian)
+curl -fsSL https://get.docker.com | sh
+
+# Or download Docker Desktop: https://www.docker.com/products/docker-desktop/
+```
+
+---
+
 ## Quick Start (Demo)
 
 First, download the synthetic data from Zenodo:
