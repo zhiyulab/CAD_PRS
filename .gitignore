@@ -8,4 +8,4 @@
 # Large data files
 *.csv.zip
 *.csv
-*.xlsx
+# *.xlsx
