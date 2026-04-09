@@ -5,7 +5,6 @@
 # OS files
 .DS_Store
 
-# Large data files
-*.csv.zip
-*.csv
-# *.xlsx
+# Large data files (>100MB)
+**/not_cohort_p.csv
+**/UKB_PRS.csv

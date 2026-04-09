@@ -1,0 +1,5 @@
+"","variable","chi_sq_p","fisher_p"
+"1","Sex",0,0
+"2","White British Ancestry",1.21986436988591e-10,3.22562329384826e-10
+"3","Family Heart Disease History",0.227166288741562,NA
+"4","Familial Hypercholesterolemia Variant Status",3.54869241336631e-63,NA
