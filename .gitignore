@@ -8,3 +8,9 @@
 # Large data files (>100MB)
 **/not_cohort_p.csv
 **/UKB_PRS.csv
+
+# Docker pipeline data and outputs
+**/data_synthetic/
+**/data_synthetic.zip
+**/output_demo/
+**/output_real/
