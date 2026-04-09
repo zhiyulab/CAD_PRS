@@ -1,0 +1,11 @@
+# R workspace and history
+.RData
+.Rhistory
+
+# OS files
+.DS_Store
+
+# Large data files
+*.csv.zip
+*.csv
+*.xlsx
