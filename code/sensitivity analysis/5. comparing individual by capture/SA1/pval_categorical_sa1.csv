@@ -1,0 +1,9 @@
+"","variable","chi_sq_p","fisher_p"
+"1","Sex",0.032122653182525,0.0286401705327313
+"2","Smoking",0.260512166706721,0.266888631019379
+"3","Race",0.148799036726018,0.131300685134515
+"4","Alcohol intake frequency",0.107365555686168,NA
+"5","Chronic Kidney Disease",0.5316961730356,0.439049727815944
+"6","Rheumatoid arthritis",0.0540747008345495,0.0333153581938192
+"7","Family Heart Disease History",5.92940931491153e-06,5.53352252235195e-06
+"8","Familial Hypercholesterolemia Variant Status",1,NA
