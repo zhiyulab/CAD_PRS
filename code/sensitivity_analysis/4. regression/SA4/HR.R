@@ -80,7 +80,7 @@ library(future)
 exposures <- paste0("df", 1:58)
 
 #Covariates
-covariates <- "age + Sex + PC1 + PC2 + PC3 + PC4 + PC5 + PC6 + PC7 + PC8 + PC9 + PC10"  # edit as needed
+covariates <- "age + Sex + PC1 + PC2 + PC3 + PC4"  # edit as needed
 
 run_cox <- function(var) {
   formula <- as.formula(
@@ -123,7 +123,7 @@ cox2_results <- future_map_dfr(exposures, run_cox, .progress = TRUE)
 exposures <- paste0("df", 1:58)
 
 #Covariates
-covariates <- "age + Sex + PC1 + PC2 + PC3 + PC4 + PC5 + PC6 + PC7 + PC8 + PC9 + PC10"  # edit as needed
+covariates <- "age + Sex + PC1 + PC2 + PC3 + PC4"  # edit as needed
 
 run_cox <- function(var) {
   formula <- as.formula(
@@ -166,7 +166,7 @@ cox2_results_white <- future_map_dfr(exposures, run_cox, .progress = TRUE)
 exposures <- paste0("df", 1:58)
 
 #Covariates
-covariates <- "age + Sex + PC1 + PC2 + PC3 + PC4 + PC5 + PC6 + PC7 + PC8 + PC9 + PC10"  # edit as needed
+covariates <- "age + Sex + PC1 + PC2 + PC3 + PC4"  # edit as needed
 
 run_cox <- function(var) {
   formula <- as.formula(

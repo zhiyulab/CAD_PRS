@@ -8,7 +8,7 @@ library(tidyr)
 library(dplyr)
 
 
-ranking<-prs_ranking_summary[,c(2,9,10)]
+ranking<-prs_ranking_summary[,c(2,4,7)]
 colnames(ranking) <- c("PRS","Population","Individual")
 
 # Calculate slope direction
@@ -63,5 +63,5 @@ p <- ggplot(ranking_long, aes(x = Rank_Type, y = Rank, group = PRS)) +
   coord_cartesian(clip = 'off')
 
 # Save the plot with white background
-ggsave("myplot_slope_mgb.png", plot = p, width = 8, height = 12, units = "in", dpi = 300, bg = "white")
+ggsave("myplot_slope_1.png", plot = p, width = 8, height = 12, units = "in", dpi = 300, bg = "white")
 
